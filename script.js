@@ -20,6 +20,7 @@ const inputIsEmpty = () => {
 
 const cleanInput = () => {
     resultsDiv.textContent = "";
+    userInput.value = "";
 }
 
 checkBtn.addEventListener("click", checkNumber);
